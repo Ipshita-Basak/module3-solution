@@ -1,0 +1,129 @@
+
+<!doctype HTML>
+<html>
+  <style>
+  @media (min-width: 992px) {
+    .col-lg-4,
+    .col-lg-4 {
+        width: 32.3%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-12
+    .col-md-6 {
+        width: 49%;
+    }
+    .col-md-12 {
+        width: 99%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sd-12,
+    .col-sd-12 {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chicken {
+    background-color: lightblue;
+}
+
+#beef {
+    background-color: lightgrey;
+}
+
+#sushi {
+    background-color: lightgreen;
+}
+
+.title {
+    text-align: center;
+    margin: 10px;
+    font-size: 4rem;
+    font-weight:bold;
+}
+
+.subtitle {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-color: black;
+    font-weight:bold;
+    border-style: solid;
+    width: 40%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.menuDescription {
+    clear:right;
+    margin-left: 5px;
+    padding: 4%;
+}
+
+.menuObject {
+    float:left;
+    text-align: left;
+    background-color: lightyellow;
+    border-width: 1px;
+    margin-bottom: 5px;
+    border-color: black;
+    border-style: solid;
+    font-size: 1.25rem;
+    font-weight:bold;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.menu {
+    padding: 0px;
+    width: 100%;
+    display: flow-root;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 class="title">Our Menu</h1>
+<div class="menu">
+    <div class="menuObject col-lg-4 col-md-6 col-sd-12">
+        <p id="chicken" class="subtitle">Chicken</p>
+        <section class="menuDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aliquid animi
+            veritatis pariatur. Incidunt ipsam doloremque labore numquam voluptatem iste suscipit ex omnis. Ullam minus
+            voluptate sit, pariatur nesciunt atque delectus doloremque cum obcaecati nam, ea quisquam voluptates et.
+        </section>
+    </div>
+    <div class="menuObject col-lg-4 col-md-6 col-sd-12">
+        <p id="beef" class="subtitle">Beef</p>
+        <section class="menuDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aliquid animi
+            veritatis pariatur. Incidunt ipsam doloremque labore numquam voluptatem iste suscipit ex omnis. Ullam minus
+            voluptate sit, pariatur nesciunt atque delectus doloremque cum obcaecati nam, ea quisquam voluptates et.
+        </section>
+    </div>
+    <div class="menuObject col-lg-4 col-md-12 col-sd-12">
+        <p id="sushi" class="subtitle">Sushi</p>
+        <section class="menuDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum aliquid animi
+            veritatis pariatur. Incidunt ipsam doloremque labore numquam voluptatem iste suscipit ex omnis. Ullam minus
+            voluptate sit, pariatur nesciunt atque delectus doloremque cum obcaecati nam, ea quisquam voluptates et.
+        </section>
+    </div>
+</div>
+</body>
+</html>

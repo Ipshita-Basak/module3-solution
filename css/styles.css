@@ -91,7 +91,7 @@ body {
     display: flow-root;
 }
 #header-nav {                          
-  background-color: lightblue;
+  background-color: lightorange;
   border-radius: 2;
   border: 2px;
   min-height: 120px;
@@ -109,9 +109,8 @@ body {
   font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 7px;
   margin-bottom: 0;
-  line-height: .75;
 }
 
 

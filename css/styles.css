@@ -200,7 +200,7 @@ select {
     position: relative;
 }
 
-.navbar-toggler-icon::before,
+/* .navbar-toggler-icon::before,
 .navbar-toggler-icon::after {
     content: "";
     width: 24px;
@@ -209,7 +209,7 @@ select {
     display: block;
     position: absolute;
     left: 0;
-}
+} */
 
 .navbar-toggler-icon::before {
     top: -6px;
@@ -218,15 +218,6 @@ select {
 .navbar-toggler-icon::after {
     top: 6px;
 }
-
-
-.navbar-collapse {
-    padding: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
 
 .nav-item {
     margin-bottom: 10px;

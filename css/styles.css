@@ -43,16 +43,19 @@ select {
 #chicken {
     background-color: lightblue;
     font-family: New Roman, Helvetica, sans-serif;
+    border: 1px solid #7d1913;
 }
 
 #beef {
     background-color: lightgrey;
     font-family: New Roman, Helvetica, sans-serif;
+    border: 1px solid #7d1913;
 }
 
 #sushi {
     background-color: lightgreen;
     font-family: New Roman, Helvetica, sans-serif;
+    border: 1px solid #7d1913;
 }
 
 #header-nav button {

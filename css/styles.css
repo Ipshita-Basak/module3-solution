@@ -165,7 +165,7 @@ select {
    border-bottom: 2px solid lightgrey;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {    
-  border: 2px solid Gray;
+  border: 2px lightsalmon;
 }
 
 .navbar-header button.navbar-toggle {   

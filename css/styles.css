@@ -223,9 +223,6 @@ select {
 /* Adjust dropdown menu styling */
 .navbar-collapse {
     padding: 10px;
-/*     background-color: #ffffff; /* White background for the dropdown */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-    border-radius: 5px;
 }
 
 /* Ensure spacing for navbar items */

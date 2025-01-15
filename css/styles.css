@@ -67,7 +67,11 @@ select {
 
 #header-nav button {
     margin-top: 22px;
-}	
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
 .title {
     text-align: center;
     margin: 10px;
@@ -162,7 +166,6 @@ select {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {    
   border: 2px solid Gray;
 }
-
 
 .navbar-header button.navbar-toggle {   
   clear: both;

@@ -80,8 +80,8 @@ select {
     float: right;
     padding: 1px;
     margin: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
+    border-left-width: .5px;
+    border-bottom-width: .5px;
     border-top-width: 0px;
     border-right-width: 0px;
     border-color: Maroon;
@@ -105,7 +105,7 @@ select {
     float:left;
     text-align: left;
     background-color: lightyellow;
-    border-width: 1px;
+    border-width: 5px !important;
     margin-bottom: 5px;
     border-color: Brown;
     border-style: solid;
@@ -196,14 +196,7 @@ select {
 
 <div id="main-content" class="container-fluid">
   <h2 
-    id="menu-categories-title" class="text-center">Our Menu
-    .navbar-brand h2 {                        
-      font-family: New roman, Helvetica, sans-serif;
-      color: Brown;
-      font-size: 1.8em;
-      border: 1px solid #7d1913;
-    }
- </h2>
+    id="menu-categories-title" class="text-center">Our Menu</h2>
 
 
   <section class="row">

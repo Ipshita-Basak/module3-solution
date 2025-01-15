@@ -33,14 +33,17 @@ body {
 
 #chicken {
     background-color: lightblue;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 #beef {
     background-color: lightgrey;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 #sushi {
     background-color: lightgreen;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 .title {
@@ -48,12 +51,13 @@ body {
     margin: 10px;
     font-size: 4rem;
     font-weight:bold;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 .subtitle {
     float: right;
-    padding: 0px;
-    margin: 0px;
+    padding: 1px;
+    margin: 1px;
     border-left-width: 1px;
     border-bottom-width: 1px;
     border-top-width: 0px;
@@ -64,12 +68,14 @@ body {
     width: 40%;
     text-align: center;
     font-size: 1.25rem;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 .menuDescription {
     clear:right;
     margin-left: 5px;
     padding: 4%;
+    font-family: New Roman, Helvetica, sans-serif;
 }
 
 .menuObject {
@@ -123,7 +129,7 @@ body {
 	margin: 0 -15px;
 }
 #nav-list a {                   
-   color: darkblue;
+   color: darkgreen;
    font-size: 1.3em;
    text-align: center;
    font-weight: bold;
@@ -167,7 +173,10 @@ body {
 
 
 <div id="main-content" class="container-fluid">
-  <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+  <h2 id="menu-categories-title" class="text-center">Our Menu {
+  font-family: New Roman, Helvetica, sans-serif;
+  }
+</h2>
 
 
   <section class="row">
@@ -179,7 +188,6 @@ body {
         </a>  <!--  item-1   -->
       </div>
   
-
       <div class="col-lg-4 col-md-6">
         <a>
             <h3 id="item-2" class="text-center">Beef</h3><br><p>Italian beef dishes are a testament to Italy’s rich culinary heritage, where the art of cooking meat is celebrated with passion and tradition. Beef has been a prominent feature in Italian cuisine since ancient times, particularly in the northern regions, where the cooler climate and fertile lands allowed for the breeding of cattle. Over the centuries, these regional variations developed into iconic dishes that highlight the versatility and depth of flavor beef can offer.Italian beef specialties include Bistecca alla Fiorentina, a thick-cut, char-grilled T-bone steak from Tuscany, and Brasato al Barolo, a slow-cooked beef stew made with the famous Barolo wine. These dishes showcase the Italian love for high-quality cuts of beef, prepared simply but with great attention to detail.Essential ingredients in Italian beef recipes include extra virgin olive oil, garlic, rosemary, balsamic vinegar, and rich local wines like Chianti and Barolo. These ingredients enhance the natural flavors of the beef, whether it's braised, grilled, or roasted. The slow-cooking methods allow the beef to tenderize, absorbing the aromatic seasonings and delivering a truly unforgettable flavor. Italian beef dishes celebrate the country's dedication to fresh, high-quality ingredients and centuries of culinary tradition. <br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Beef section) Back To Top</a></p>
@@ -187,7 +195,6 @@ body {
         </a>    <!--  item-2   -->
       </div>
   
-
       <div class="col-lg-4 col-md-12">
         <a>
             <h3 id="item-3" class="text-center">Sushi</h3><br><p>Italian sushi blends the artistry of traditional Japanese sushi with the bold, vibrant flavors of Italy, creating a unique fusion of cultures. Inspired by the growing trend of culinary crossovers, Italian sushi often features fresh, locally sourced ingredients like prosciutto, mozzarella, and balsamic vinegar, paired with sushi rice and nori. Popular specialties include Sushi alla Caprese, with fresh mozzarella and tomatoes, and Tuna Tartare with Olive Oil, highlighting Italy's rich coastal flavors. Key ingredients such as extra virgin olive oil, basil, and high-quality seafood elevate this innovative take on sushi, offering a delightful blend of East meets West.<br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Sushi section) Back To Top</a></p>
@@ -195,10 +202,7 @@ body {
         </a>     <!--  item-3   -->
       </div>
 
-
-
   </section>  <!--  Row   -->
-
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

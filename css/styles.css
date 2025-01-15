@@ -126,7 +126,7 @@ select {
 #header-nav {                          
   background-color: lightsalmon;
   border-radius: 2;
-  border: 2px;
+  border: 10px;
   min-height: 120px;
 
 }

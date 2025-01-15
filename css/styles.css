@@ -29,8 +29,17 @@
 
 body {
     font-family: New Roman, Helvetica, sans-serif;
+    margin: 20px;
 }
 
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
 #chicken {
     background-color: lightblue;
     font-family: New Roman, Helvetica, sans-serif;
@@ -46,6 +55,9 @@ body {
     font-family: New Roman, Helvetica, sans-serif;
 }
 
+#header-nav button {
+    margin-top: 22px;
+}	
 .title {
     text-align: center;
     margin: 10px;
@@ -71,14 +83,14 @@ body {
     font-family: New Roman, Helvetica, sans-serif;
 }
 
-.menuDescription {
+.menu-description {
     clear:right;
     margin-left: 5px;
     padding: 4%;
     font-family: New Roman, Helvetica, sans-serif;
 }
 
-.menuObject {
+.menu-object {
     float:left;
     text-align: left;
     background-color: lightyellow;
@@ -119,7 +131,6 @@ body {
   margin-top: 7px;
   margin-bottom: 0;
 }
-
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -185,12 +196,12 @@ body {
 
   <section class="row">
       <div class="col-lg-4 col-md-6"> 
-      <title>.menuDescription</title>
+      <title>.menu-description</title>
 
-<select id="#menuDescription">
-        <option value="option1">Chicken</option>
-        <option value="option2">Beef</option>
-        <option value="option3">Sushi</option>
+<select id="#menu-description">
+        <option value="Chicken">Option 1</option>
+        <option value="Beef">Option 2</option>
+        <option value="Sushi">Option 3</option>
 </select>
          
         <a>

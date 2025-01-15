@@ -161,6 +161,7 @@ select {
    line-height: 15px;
    padding-bottom: 10px;
    adding-top: 20px;
+   border-top: 2px solid lightgrey;
    border-bottom: 2px solid lightgrey;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {    

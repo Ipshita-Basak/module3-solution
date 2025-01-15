@@ -151,11 +151,11 @@ select {
 }
 #nav-list {
 	background-color: whitesmoke;   
-	margin: 0 -15px;
+	margin: 0 -12px;
 }
 #nav-list a {                   
    color: Brown;
-   font-size: 1.3em;
+   font-size: 1em;
    text-align: center;
    font-weight: bold;
    line-height: 30px;

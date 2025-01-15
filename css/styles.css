@@ -22,6 +22,13 @@
     }
 }
 
+.wrap {
+    width: 100%;
+    max-width: 980px;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+}
 
 * {
     box-sizing: border-box;
@@ -91,6 +98,7 @@ select {
     margin-left: 5px;
     padding: 4%;
     font-family: New Roman, Helvetica, sans-serif;
+    border: 1px solid #7d1913;
 }
 
 .menu-object {
@@ -153,7 +161,7 @@ select {
    border-bottom: 2px solid lightgrey;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {    
-  border: 2px solid white;
+  border: 2px solid Gray;
 }
 
 
@@ -193,18 +201,19 @@ select {
       font-family: New roman, Helvetica, sans-serif;
       color: Brown;
       font-size: 1.8em;
+      border: 1px solid #7d1913;
     }
  </h2>
 
 
   <section class="row">
       <div class="col-lg-4 col-md-6"> 
-      <title>.menu-description</title>
+      <title>text-center</title>
 
 <select id="#menu-description">
-        <option value="Chicken">Option 1</option>
-        <option value="Beef">Option 2</option>
-        <option value="Sushi">Option 3</option>
+        <option value="item-1">Chicken</option>
+        <option value="item-2"Beef</option>
+        <option value="item-3">Sushi</option>
 </select>
          
         <a>

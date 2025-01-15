@@ -200,7 +200,7 @@ select {
     position: relative;
 }
 
-/* .navbar-toggler-icon::before,
+.navbar-toggler-icon::before,
 .navbar-toggler-icon::after {
     content: "";
     width: 24px;
@@ -209,7 +209,7 @@ select {
     display: block;
     position: absolute;
     left: 0;
-} */
+}
 
 .navbar-toggler-icon::before {
     top: -6px;

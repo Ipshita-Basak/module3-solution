@@ -175,4 +175,68 @@ select {
   margin-bottom: 15px;
   margin-right: 40px;
 }
+.nav-link {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff; 
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    width: 24px;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    width: 24px;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-toggler-icon::before {
+    top: -6px;
+}
+
+.navbar-toggler-icon::after {
+    top: 6px;
+}
+
+
+.navbar-collapse {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 576px) {
+    .nav-link {
+        text-align: center;
+        display: block;
+    }
+}
 

@@ -151,7 +151,7 @@ select {
 }
 #nav-list {
 	background-color: whitesmoke;   
-	margin: 22 -12px;
+	margin: 22-12px;
 }
 #nav-list a {                   
    color: Brown;
@@ -165,7 +165,7 @@ select {
    border-bottom: 2px solid lightgrey;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {    
-  border: 2px lightsalmon;
+  border: 2px solid Gray;
 }
 
 .navbar-header button.navbar-toggle {   
@@ -185,7 +185,6 @@ select {
 .nav-link:hover {
     color: #007bff; 
 }
-
 
 /* Style the navbar toggler */
 .navbar-toggler {
@@ -219,6 +218,10 @@ select {
 .navbar-toggler-icon::after {
     top: 6px;
 }
+.navbar-collapse ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 
 /* Adjust dropdown menu styling */
 .navbar-collapse {

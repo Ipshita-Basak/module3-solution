@@ -173,7 +173,14 @@ body {
 
 
 <div id="main-content" class="container-fluid">
-  <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+  <h2 
+    id="menu-categories-title" class="text-center">Our Menu
+    .navbar-brand h2 {                        
+      font-family: New roman, Helvetica, sans-serif;
+      color: Brown;
+      font-size: 1.8em;
+    }
+ </h2>
 
 
   <section class="row">
@@ -184,7 +191,7 @@ body {
         <option value="option1">Chicken</option>
         <option value="option2">Beef</option>
         <option value="option3">Sushi</option>
-    </select>
+</select>
          
         <a>
             <h3 id="item-1" class="text-center" width="100%" height="100%">Chicken</h3><br><p>Italian chicken dishes have long been a staple of Italy’s vibrant culinary heritage, combining rich history, distinctive regional flavors, and high-quality, fresh ingredients. The roots of Italian chicken cuisine trace back to ancient Roman times when poultry was often featured in feasts and celebrations. Over the centuries, these early influences evolved, resulting in a diverse array of chicken-based dishes from various regions, each offering unique twists and local specialties.One of the key features of Italian chicken cooking is its simplicity and emphasis on fresh, seasonal ingredients. Olive oil, garlic, basil, rosemary, and sun-ripened tomatoes are among the essential staples that infuse each dish with vibrant flavors. Classic recipes like Pollo alla Cacciatora (hunter's chicken), Pollo al Limone (lemon chicken), and Pollo alla Parmigiana (chicken Parmesan) have become iconic, showcasing the ability to balance tangy, savory, and herby notes in perfect harmony.What makes Italian chicken dishes truly special is the dedication to preserving the natural flavors of the chicken, enhanced by slow-cooking methods that allow the meat to soak up the richness of the ingredients. Whether the chicken is simmered in a tomato sauce, grilled with aromatic herbs, or baked to golden perfection, every dish is a reflection of Italy's regional diversity and passion for food. The simplicity of the preparation highlights the importance of quality ingredients, ensuring that each bite is a celebration of Italy’s centuries-old culinary traditions. <br><br><a href="#menu-categories-title" class="hidden-lg" id="back-to-top" style="color: royalblue;">(End of Chicken section) Back To Top</a></p>

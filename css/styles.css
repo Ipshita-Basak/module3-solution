@@ -83,6 +83,9 @@ section h1{
    line-height: .75; 
    text-align: center;
 }  
+ p {
+  margin: 20px;
+}
  
  /********** Extra small devices only **********/ 
  @media (max-width: 767px) { 

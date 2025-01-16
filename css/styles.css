@@ -1,242 +1,120 @@
- @media (min-width: 992px) {
-    .col-lg-4,
-    .col-lg-4 {
-        width: 32.3%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-    .col-md-6, .col-md-12
-    .col-md-6 {
-        width: 49%;
-    }
-    .col-md-12 {
-        width: 99%;
-    }
-}
-
-@media (max-width: 767px) {
-    .col-sd-12,
-    .col-sd-12 {
-        width: 100%;
-    }
-}
-
-.wrap {
-    width: 100%;
-    max-width: 980px;
-    background-color: #fff;
-    margin: auto;
-    padding: 20px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
+ body {
     font-family: New Roman, Helvetica, sans-serif;
     margin: 20px;
-}
-
-label {
-    margin-right: 10px;
-}
-
-select {
-    padding: 5px;
-    font-size: 16px;
-}
-#chicken {
-    background-color: lightblue;
-    font-family: New Roman, Helvetica, sans-serif;
-    border: 1px solid #7d1913;
-}
-
-#beef {
-    background-color: lightgrey;
-    font-family: New Roman, Helvetica, sans-serif;
-    border: 1px solid #7d1913;
-}
-
-#sushi {
-    background-color: lightgreen;
-    font-family: New Roman, Helvetica, sans-serif;
-    border: 1px solid #7d1913;
-}
-
-#header-nav button {
-    margin-top: 22px;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
-.title {
-    text-align: center;
-    margin: 10px;
-    font-size: 4rem;
-    font-weight:bold;
-    font-family: New Roman, Helvetica, sans-serif;
-}
-
-.subtitle {
-    float: right;
-    padding: 1px;
-    margin: 1px;
-    border-left-width: .5px;
-    border-bottom-width: .5px;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-color: Maroon;
-    font-weight:bold;
-    border-style: solid;
-    width: 40%;
-    text-align: center;
-    font-size: 1.25rem;
-    font-family: New Roman, Helvetica, sans-serif;
-}
-
-.menu-description {
-    clear:right;
-    margin-left: 5px;
-    padding: 4%;
-    font-family: New Roman, Helvetica, sans-serif;
-}
-
-.menu-object {
-    float:left;
-    text-align: left;
-    background-color: lightyellow;
-    border-width: 1px;
-    margin-bottom: 5px;
-    border-color: Brown;
-    border-style: solid;
-    font-size: 1.25rem;
-    font-weight:bold;
-    height: 100%;
-    margin-left: 1%;
-}
-
-.menu {
-    padding: 0px;
-    width: 100%;
-    display: flow-root;
-}
-#header-nav {                          
+ } 
+ #header-nav { 
   background-color: lightsalmon;
   border-radius: 2;
   border: 10px;
   min-height: 120px;
-
 }
 
-.navbar-brand {
+.navbar-brand{
   padding-top: 40px;
 }
-
-
-.navbar-brand h1 {                        
+.navbar-brand h1{
+  color: Brown; 
   font-family: New roman, Helvetica, sans-serif;
-  color: Brown;
   font-size: 1.8em;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 7px;
-  margin-bottom: 0;
+  text-transform: uppercase; 
+   text-shadow: 1.5px 1.5px 1.5px #222; 
+   margin-top: 7px; 
+  margin-bottom: 0; 
+   line-height: .75; 
 }
+.navbar-brand a:hover, .navbar-brand a:focus { 
+   text-decoration: none; 
+ } 
+#nav-list { 
+   margin-top: 10px;
+   background-color: whitesmoke;  
+} 
+ #nav-list a { 
+   color: Brown; 
+   text-align: center; 
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-#nav-list {
-    background-color: whitesmoke;   
-    margin: 22-12px;
-}
-#nav-list a {                   
+ } 
+ #nav-list a:hover { 
+   background: #000; 
+   font-size:90%;
    color: Brown;
-   font-size: 1em;
-   text-align: center;
-   font-weight: bold;
-   line-height: 15px;
-   padding-bottom: 10px;
-   adding-top: 20px;
-   border-top: 2px solid lightgrey;
-   border-bottom: 2px solid lightgrey;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {    
-  border: 2px solid Gray;
-}
+ } 
+ #nav-list a span { 
+   font-size: 1.8em; 
+ } 
+ 
 
-.navbar-header button.navbar-toggle {   
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
+     border: 2px solid Gray;
+ } 
+ .navbar-header button.navbar-toggle { 
   clear: both;
   margin-top: 15px;
   padding: 15px;
   margin-bottom: 15px;
   margin-right: 40px;
+ } 
+ .container h1{
+  color: Brown; 
+  font-family: New roman, Helvetica, sans-serif;
+  font-size: 2em; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+   text-shadow: 1.5px 1.5px 1.5px #222; 
+   margin-top: 20px; 
+  margin-bottom: 20px; 
+   line-height: .75; 
+   
 }
-.nav-link {
-    color: #333;
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s ease;
+section{
+  background-color:#fae29c;
+  padding-bottom: 20px;
+  font-family: New roman, Helvetica, sans-serif;
+  width: 100%;
+  text-align: center;
+  
 }
-
-.nav-link:hover {
-    color: #007bff; 
+section h1{
+   color:Brown; 
+   font-family:  New roman, Helvetica, sans-serif;
+   font-size: 1em; 
+   text-transform: uppercase; 
+   padding: 20px;
+   line-height: .75; 
+   text-align: center;
+}  
+ 
+ /********** Extra small devices only **********/ 
+ @media (max-width: 767px) { 
+   .navbar-brand { 
+     padding-top: 10px; 
+     height: 80px; 
+   } 
+.navbar-brand h1 { /* Restaurant name */ 
+    padding-top: 10px; 
+     font-size: 5vw; /* 1vw = 1% of viewport width */ 
+   } 
+.navbar-collapse a{
+font-size:1.2em;
 }
-
-/* Style the navbar toggler */
-.navbar-toggler {
-    border: none;
-    background-color: transparent;
+.navbar-collapse a span{
+font-size:1em;
+margin-right:5px;
 }
-
-.navbar-toggler-icon {
-    width: 24px;
-    height: 2px;
-    background-color: #333;
-    display: block;
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+    .col-xxs-12 {
     position: relative;
-}
-
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-    content: "";
-    width: 24px;
-    height: 2px;
-    background-color: #333;
-    display: block;
-    position: absolute;
-    left: 0;
-}
-
-.navbar-toggler-icon::before {
-    top: -6px;
-}
-
-.navbar-toggler-icon::after {
-    top: 6px;
-}
-.navbar-collapse ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-
-/* Adjust dropdown menu styling */
-.navbar-collapse {
-    padding: 10px;
-}
-
-/* Ensure spacing for navbar items */
-.nav-item {
-    margin-bottom: 10px;
-}
-
-/* Adjust link appearance in smaller viewports */
-@media (max-width: 576px) {
-    .nav-link {
-        text-align: center;
-        display: block;
-    }
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }
